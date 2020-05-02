@@ -11,7 +11,7 @@ class Config():
     # websites, this might prevent the un-authorized use of the
     # confidential session files
     HU_STRING_SESSION = os.environ.get("HU_STRING_SESSION", AgBjW8wN8FXkDCTt9HbrVsa2PaL8G4u1Fknd5Mpnb5y_g7vsPW3VmGrT40C6dDI76hrdjest0-FxjIrb23WSIGWps9WBIGi5K0mIrGzaRLFK3vKX-xOSEmvMXyhzgGexVyNs5gA3WPg8WpgU26c-qMS7H78MRtJsgdxs4sk85bQ9Dh4JqCmz9fdSN0QB70qrkyzJDAhk--GA7kRcFNcWzS16INy1MX_BIx2DonQH6-yMoYjnAg2VTiGY4S2sxRw13M3PL9QpnRknlnafGi86uzsetoDz-DUuid2ZIOXxzOct0PXN4Ur-aW6hZXxoDxYLWO-f-wNLFlRA7yXAEydQAnGHPscDggA)
-    TG_COMPANION_BOT = os.environ.get("TG_BOT_TOKEN_BF_HER", 1107498218:AAFbdVgQon3HHXYLfEzQMbU7kAZwvhIZeF4)
+    TG_COMPANION_BOT = os.environ.get("TG_BOT_TOKEN_BF_HER", None)
     # maximum message length in Telegram
     MAX_MESSAGE_LENGTH = 4096
     # specify command handler that should be used for the plugins
