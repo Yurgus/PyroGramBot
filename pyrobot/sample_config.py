@@ -3,7 +3,7 @@ import os
 class Config():
     LOGGER = True
     # The Telegram API things
-    APP_ID = int(os.environ.get("APP_ID", None))
+    APP_ID = int(os.environ.get("APP_ID", 1364592))
     API_HASH = os.environ.get("API_HASH",  None)
     # Get these values from my.telegram.org
     # string session for running on Heroku
