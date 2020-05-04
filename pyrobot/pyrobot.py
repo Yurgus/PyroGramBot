@@ -7,9 +7,12 @@ from pyrogram import __version__
 from pyrogram.api.all import layer
 
 from pyrobot import (
-    APP_ID,
-    API_HASH,
-    HU_STRING_SESSION,
+    APP_ID = 1364592
+    API_HASH = "bacb68050efb668d82dd9d1039759f49"
+    HU_STRING_SESSION = "AgBjW8wN8FXkDCTt9HbrVsa2PaL8G4u1Fknd5Mpnb5y_g7vsPW3VmGrT40C6dDI76hrdjest0-FxjIrb23WSIGWps9WBIGi5K0mIrGzaRLFK3vKX-xOSEmvMXyhzgGexVyNs5gA3WPg8WpgU26c-qMS7H78MRtJsgdxs4sk85bQ9Dh4JqCmz9fdSN0QB70qrkyzJDAhk--GA7kRcFNcWzS16INy1MX_BIx2DonQH6-yMoYjnAg2VTiGY4S2sxRw13M3PL9QpnRknlnafGi86uzsetoDz-DUuid2ZIOXxzOct0PXN4Ur-aW6hZXxoDxYLWO-f-wNLFlRA7yXAEydQAnGHPscDggA"
+#APP_ID,
+#API_HASH,
+#HU_STRING_SESSION,
     LOGGER,
     # OWNER_ID,
     # SUDO_USERS,
